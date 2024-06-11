@@ -1,40 +1,11 @@
 ---
-title: "Coursework submission for Transport Data Science (TRAN5340M)"
+title: "Transport Data Science"
 subtitle: "Transportation Networks, Population Distribution and Air Quality: A Data Driven Exploration of Interconnected Systems in the UK"
 author: "201749908"
 output: pdf_document
 geometry: "left=1.5cm,right=1.5cm,top=1.5cm,bottom=1.5cm"
 bibliography: References.bib
 ---
-
-# Statement {-}
-
-```
-TRAN5340M
-Transport Data Science
-Assignment Title:	A Data Driven Exploration of Interconnected Systems in the UK
-Student ID: 201749908
-Word Count:	2500	
-Lecturer: Dr Robin Lovelace
-Submission Date: 17th May 2024
-Semester:	2			
-Academic Year: 2024 - 2025
-Generative AI Category: AMBER
-```
-
-
-Use of Generative Artificial Intelligence (Gen AI) in this assessment. Remove statement as appropriate:
-
-
-I have used Gen AI only for the specific purposes outlined in my acknowledgements
-
-
-By submitting the work to which this sheet is attached you confirm your compliance with the University’s definition of Academic Integrity as: “a commitment to good study practices and shared values which ensures that my work is a true expression of my own understanding and ideas, giving credit to others where their work contributes to mine”. Double-check that your referencing and use of quotations is consistent with this commitment.
-
-
-# Acknowledgements 
-I am grateful to my Transport Data Science course professors, whose contribution in stimulating suggestions and encouragement helped me complete my assignment. Furthermore, I express my sincere gratitude to the generative AI. Its invaluable assistance was instrumental in resolving the errors I encountered during the execution of this assignment. In addition, I would like to thank all the sources from which I obtained the datasets for this assignment. These resources made the completion of this work possible.
-  
 \newpage
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE, warning = FALSE, message = FALSE, eval = TRUE)
