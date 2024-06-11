@@ -1,13 +1,13 @@
 # Transport Data Science 🛣️
 
-## Transportation Networks, Population Distribution and Air Quality: A Data Driven Exploration ofInterconnected Systems in the UK 🚂
+## Transportation Networks, Population Distribution and Air Quality: A Data Driven Exploration ofInterconnected Systems in the UK  🚂
 
-## Introduction 🇬🇧
+### Introduction 🇬🇧
 The United Kingdom has a diverse and dynamic population distribution and intricate transportation networks for bothrailways and roadways. This report aims to comprehend the many transport networks, identify thebusiest hubs, ascertain the population density in these locations, and establish a connection between them and the airquality in that region.
 
 This analysis is structured as follows: we first look into an overview of the different transportation networks, populationdistribution and air quality. Following this different data exploratory analysis is done to understand the data better andcome up with findings to conclude the analysis.
 
-## Datasets and Shapefiles used 🗺️
+### Datasets and Shapefiles used 🗺️
 Different Data files that are used in this analysis are:
 - Stations - This .csv dataset was got from Github. It contains information on the different stations present in the UK and their locations. 
 - pass_data — This .xlsx dataset, obtained from the Office of Rail and Road Transport in the UK, contains information on the number of journeys made by passengers in the UK by train. 
@@ -27,7 +27,7 @@ Different shape files that are used in this analysis are:
 - UK_lad - shapefile from ONS contains boundary data of the local authority districts in the UK. 
 - UK_major_roads - shapefile got OS OpenRoads, containing a route map containing all the major roads in the UK.
 
-## Methodology followed 🗂️
+### Methodology followed 🗂️
 1. Importing the required Datasets and Shapefiles
 2. Data Cleaning and Data Transformations
 3. Exploratory Data Analysis and Discussions
@@ -38,10 +38,10 @@ Different shape files that are used in this analysis are:
    * Understanding the amount of greenhouse gases produced and how different transports have contributed
    * Greenhouse Gas Emission based on LAD comparison with the population density and the road traffic
 
-## Built Using 🛠️
+### Built Using 🛠️
 * R
 
-## Packages used are 📦
+### Packages used are 📦
 * ggplot2
 * maps
 * osmdata
@@ -53,5 +53,5 @@ Different shape files that are used in this analysis are:
 * sp
 * openair
 
-## Documentation 📚
+### Documentation 📚
 In order to get the complete analysis and conclusion, please refer to this documentation.
